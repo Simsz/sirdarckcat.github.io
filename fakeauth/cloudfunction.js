@@ -12,7 +12,7 @@ exports.execute = async (req, res) => {
       "token_type": "Bearer",
       "access_token": "ACCESSTOKEN",
       "refresh_token": "REFRESHTOKEN",
-      "expires_in": 3600
+      "expires_in": 10800
     };
     res.status(200).send(rrr);
     return;
